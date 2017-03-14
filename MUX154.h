@@ -60,5 +60,6 @@ class MUX154 {
         void select(uint8_t s);
         void inc();
         void dec();
+		void clear();
 };
 #endif

@@ -88,3 +88,10 @@ void MUX154::update() {
         digitalWrite(_e1, LOW);
     }
 }
+
+void MUX154::clear() {
+	    digitalWrite(_e0, HIGH);
+    if (_e1 != 255) {   
+        digitalWrite(_e1, HIGH);
+    }
+}
